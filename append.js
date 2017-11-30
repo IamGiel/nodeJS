@@ -31,7 +31,7 @@ function total() {
 		}
 		var Numbers = data.split(' ');
 		var sum = Numbers.reduce(function(a, b) { return parseFloat(a) + parseFloat(b); }, 0);;
-		console.log(sum);
+		console.log(sum.toFixed(2));
 	});
 }
 function deposit() {
